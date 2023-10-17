@@ -1,4 +1,4 @@
-## CodeLib Sample 1: Static Website
+## CodeLib Sample 2: Working with Plugins
 
 ### Description
 

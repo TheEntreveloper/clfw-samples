@@ -4,8 +4,9 @@ Under this Repository you can find a selection of **<a href="https://github.com/
 framework, and how to quickly take advantage of specific CL features to develop PHP Applications that are robust 
 and easy to create and maintain.
 You can also read more about Code-lib at the <a href="http://codelibfw.com/">Code-Lib website</a>.
+_Some of the samples as well as the Codelib website are being updated and might be temporarily unavailable_.
 
-While Code-lib itself is released under a MIT license, each of the samples is released under the **Apache License**.
+The Code-lib framework is released under the MIT license, and the samples are released under the **Apache License**.
 Both are considered "permissive" open source licenses.
 **You are free to use any of these samples as a starting point for any project, personal or commercial, whether open 
 source or not**.

@@ -1,0 +1,7 @@
+{
+	"version": "1.0.0",
+	"require": {
+		"php": "^7.4",
+		"codelibfw/codelib-fw": "dev-main"
+	}
+}

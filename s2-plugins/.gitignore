@@ -1,0 +1,9 @@
+/logs/*
+/composer.lock
+/vendor/
+/.idea/
+.phpunit*
+package-lock.json
+/test/*
+/config/configData.php
+demo-agency.html

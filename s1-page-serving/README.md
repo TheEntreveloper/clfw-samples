@@ -2,7 +2,7 @@
 
 ### Description
 
-This sample demonstrates showcases how we can quickly create a simple website which only contains static pages
+This sample shows how we can quickly create a simple website which only contains static pages
 and simple logic.
 
 #### Configuration and Entry point

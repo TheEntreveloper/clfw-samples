@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Subscribe to our Newsletter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div><b>Hello,</b><br><br>
+    <h3>Subscribe to our Newsletter</h3>
+    <p>
+        Good day! Your email address was just used to subscribe to our newsletter.<br>
+        If that was not you, just ignore this message and you will not receive any more messages from us.<br>
+        If it was you, we need to confirm your email address. In order to do so, please follow this link:<br>
+        <a href="{$domain}/index.php?{$clkey}=newsletter/confirm&invid={$invcode}">Subscribe to our Newsletter</a>.<br>
+        Alternatively, if you prefer not to press on a link, please copy and paste the link details in the address bar of your web browser:<br>
+        {$domain}/index.php?{$clkey}=newsletter/confirm&invid={$invcode}<br>
+        <br>
+        Regards,<br>
+    </p>
+    This email was sent from: <br>
+    <a href="{$domain}">{$domain}</a>, as a result of user interaction.<br>
+    <br>
+</div>
+</body>
+</html>

@@ -121,6 +121,7 @@
             <form class="d-flex" role="search" method="post">
                 <input class="form-control me-2" name="keywords" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
+                <input type="hidden" name="<?php echo CSRF_KEY; ?>" value="<?php echo $csrf ?? ''; ?>" />
                 <input type="hidden" name="clkey" value="search">
             </form>
         </div>

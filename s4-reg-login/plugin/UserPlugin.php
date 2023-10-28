@@ -25,7 +25,7 @@ class UserPlugin  extends CLUserPlugin {
         $this->pluginResponse = parent::login();
         if ($this->pluginResponse->getVar('status') === CLFlag::SUCCESS) {
             // if success, let's show the user dashboard
-            if ($this->pluginResponse->getVar('user')['role'] === self::ADMIN) {
+            if ($this->pluginResponse->getVar('user')['role'] === ADMIN) {
                 // load the admin dashboard
                 $this->pluginResponse->setVar('page', 'admdash');
             } else {

@@ -44,10 +44,10 @@ class Newsletter extends \cl\plugin\CLBasePlugin implements CLInjectable
         if ($this->getActiveRepo()->create($entity)) {
             $domain = $this->getAppConfig("domain", null);
             $supportEmailAddr = $this->getAppConfig("supportemail", null);
-            $domain = startsWith($domain, 'http') ? $domain : 'https://'.$domain;
             if (!isset($domain) || !isset($supportEmailAddr)) {
                 throw new \Exception(_T("Site not properly configured. Domain and Support Email address not set"));
             }
+            $domain = startsWith($domain, 'http') ? $domain : 'https://'.$domain;
             $templ = \cl\util\Util::loadFile(BASE_DIR.'/resources/templates/newslemailconfirm.html');
             if ($this->sendEmailInvites($data['email'], $domain, $supportEmailAddr, $templ)) {
                 $this->pluginResponse->addVars(['feedbacktitle' => _T('Thank you for subscribing!'), 'feedbackcolor' => 'green']);

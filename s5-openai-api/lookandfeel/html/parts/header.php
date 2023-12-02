@@ -99,32 +99,10 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">Sample 4 - Reg-Login</a>
+        <a class="navbar-brand" href="index.php">Sample 5 - Using ChatGPT via the OpenAI API</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="?clkey=about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?clkey=contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?clkey=register">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?clkey=login">Login</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search" method="post">
-                <input class="form-control me-2" name="keywords" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                <input type="hidden" name="<?php echo CSRF_KEY; ?>" value="<?php echo $csrf ?? ''; ?>" />
-                <input type="hidden" name="clkey" value="search">
-            </form>
-        </div>
     </div>
 </nav>
 

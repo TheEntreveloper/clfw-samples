@@ -1,0 +1,8 @@
+/logs/*
+/composer.lock
+/vendor/
+/.idea/
+.phpunit*
+package-lock.json
+/test/*
+
